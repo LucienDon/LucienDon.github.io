@@ -206,11 +206,11 @@ sidebar:
   # Left sidebar configurations
   left:
     # Whether the sidebar sticks to the top when page scrolls
-    sticky: false
+    sticky: true
   # Right sidebar configurations
   right:
     # Whether the sidebar sticks to the top when page scrolls
-    sticky: false
+    sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -225,11 +225,11 @@ widgets:
     # 作者的当前位置
     location: China
     # 头像图像的URL或路径
-    avatar:
+    avatar: /img/head.jpg
     # 是否显示圆角的头像
     avatar_rounded: true
     # Gravatar的电子邮件地址
-    gravatar: 534458392@qq.com
+    #gravatar: 534458392@qq.com
     # URL or path for the follow button
     follow_link: 'https://github.com/LucienDon'
     # Links to be shown on the bottom of the profile widget
@@ -249,6 +249,10 @@ widgets:
   #      RSS:
   #        icon: fas fa-rss
   #        url: /
+  # 最近发布的小部件配置
+  - # Where should the widget be placed, left sidebar or right sidebar
+    position: right
+    type: recent_posts
   # 目录小部件配置
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -258,7 +262,7 @@ widgets:
     # 是否在看不到子标题时将其折叠
     collapsed: true
     # 最多可显示的标题级别(1-6)
-    depth: 3
+    depth: 5
   # 推荐链接小部件配置
   - # 小部件应该放在哪里，左边栏还是右边栏
     position: right
@@ -270,10 +274,6 @@ widgets:
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
     type: categories
-  # 最近发布的小部件配置
-  - # Where should the widget be placed, left sidebar or right sidebar
-    position: right
-    type: recent_posts
   # 档案小部件的配置
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
